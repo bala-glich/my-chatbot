@@ -4,7 +4,7 @@ st.title("My Chatbot")
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Hi! I'm your chatbot. Ask me something."}
+        {"role": "assistant", "content": "Hi! I'm your chatbot. Ask me anything."}
     ]
 
 for msg in st.session_state.messages:
